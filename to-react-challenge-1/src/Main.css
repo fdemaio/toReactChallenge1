@@ -9,6 +9,13 @@ p{
   width: 60%;
 }
 
+.Main-link {
+  color: gray;
+}
+
+h1 h2{
+padding: 100 100 100 100;
+}
 /* .Main-logo {
   height: 40vmin;
   pointer-events: none;
