@@ -1,0 +1,20 @@
+.Main {
+  /**/
+  text-align: left;
+  padding-left: 30%;
+}
+
+p{
+  font-size: medium;
+  width: 60%;
+}
+
+/* .Main-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.Main-header {
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+} */

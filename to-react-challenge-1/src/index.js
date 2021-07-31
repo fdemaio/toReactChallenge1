@@ -1,12 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Main from './Main';
+import About from './About';
+import Target from './Target';
+import Members from './Members';
+import Resources from './Resources';
+import Fundamentals from './Fundamentals';
+import AdvancedTopics from './AdvancedTopics';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Main />
+    <About />
+    <Target />
+    <Members />
+    <Resources />
+    <Fundamentals />
+    <AdvancedTopics />
+
   </React.StrictMode>,
   document.getElementById('root')
 );
