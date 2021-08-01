@@ -5,7 +5,7 @@ function AdvancedTopics() {
     <div className="Main">
       <header className="Main-header">
         <h1>Advanced Topics </h1>
-
+        
         <h2>Hooks</h2>
         <p>KCD Hooks charla: <a className="Main-link" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=zWsZcBiwgVE&list=PLV5CVI1eNcJgNqzNwcs4UKrlJdhfDjshf" >https://www.youtube.com/watch?v=zWsZcBiwgVE&list=PLV5CVI1eNcJgNqzNwcs4UKrlJdhfDjshf</a>
         </p>
@@ -33,9 +33,10 @@ Midudev: <a className="Main-link" target="_blank" rel="noopener noreferrer" href
         </p>
 
         <h2>Challenges</h2>
-        <p>- <a className="Main-link" target="_blank" rel="noopener noreferrer" href="https://devchallenges.io/" > https://devchallenges.io/</a>
-          - <a className="Main-link" target="_blank" rel="noopener noreferrer" href="https://www.frontendmentor.io/" >https://www.frontendmentor.io/)</a>
-        </p>
+        <ul>
+          <li><a className="Main-link" target="_blank" rel="noopener noreferrer" href="https://devchallenges.io/" > https://devchallenges.io/</a></li>
+          <li><a className="Main-link" target="_blank" rel="noopener noreferrer" href="https://www.frontendmentor.io/" >https://www.frontendmentor.io/)</a></li>
+        </ul>
       </header>
     </div>
   );
