@@ -4,7 +4,6 @@ function About() {
   return (
     <div className="Main">
       <header className="Main-header">
-        <img src="./image/books_ico.jpeg" alt="" />
         <h2>📚 About</h2>
         <p>La idea es seguir el routemap de React que encontramos en roadmap.sh. 
             No tenemos un material en particular, proponemos este Notion con varios 
