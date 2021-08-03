@@ -1,11 +1,10 @@
-import './Main.css';
+import React from 'react';
 
 function AdvancedTopics() {
   return (
-    <div className="Main">
-      <header className="Main-header">
+    <div>
+      <section>
         <h1>Advanced Topics </h1>
-        
         <h2>Hooks</h2>
         <p>KCD Hooks charla: <a className="Main-link" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=zWsZcBiwgVE&list=PLV5CVI1eNcJgNqzNwcs4UKrlJdhfDjshf" >https://www.youtube.com/watch?v=zWsZcBiwgVE&list=PLV5CVI1eNcJgNqzNwcs4UKrlJdhfDjshf</a>
         </p>
@@ -36,8 +35,8 @@ Midudev: <a className="Main-link" target="_blank" rel="noopener noreferrer" href
         <ul>
           <li><a className="Main-link" target="_blank" rel="noopener noreferrer" href="https://devchallenges.io/" > https://devchallenges.io/</a></li>
           <li><a className="Main-link" target="_blank" rel="noopener noreferrer" href="https://www.frontendmentor.io/" >https://www.frontendmentor.io/)</a></li>
-        </ul>
-      </header>
+        </ul> 
+      </section>
     </div>
   );
 }

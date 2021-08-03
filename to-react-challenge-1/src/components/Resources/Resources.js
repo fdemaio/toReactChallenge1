@@ -1,4 +1,4 @@
-import './Main.css';
+import React from 'react';
 
 function Resources() {
   return (

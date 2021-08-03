@@ -1,10 +1,28 @@
-import './Main.css';
+import React from 'react';
+
+import texts from '../../data/members/members.json';
+
+
 
 function Members() {
   return (
-    <div className="Main">
-      <header className="Main-header">
-        <img src="./image/hand_shake_ico.gif" alt="" />
+    <section>
+      <h2>Integrantes</h2>
+      <ul>
+        {
+          texts.data.map((member) => (
+            <li key={member.githubUser}>
+              {member.name}
+              (<a target="_blank" rel="noopener noreferrer" href={member.url} >
+                @{member.githubUser}
+              </a>)
+            </li>
+          )
+          )
+        }
+      </ul>
+     
+      {/* <div>
         <h2>👋🏽 Integrantes</h2>
         <ul>
           <li>Matias Palladino (<a className="Main-link" target="_blank" rel="noopener noreferrer" href="https://github.com/Sheephack" >@Sheephack</a>)</li>
@@ -17,8 +35,8 @@ function Members() {
           <li>Alexis Bonvicini (<a className="Main-link" target="_blank" rel="noopener noreferrer" href="https://github.com/abonvicini" >@abonvicini</a>)</li>
           <li>Agustin Vazquez (<a className="Main-link" target="_blank" rel="noopener noreferrer" href="https://github.com/9gustin" >@9gustin</a>)</li>
         </ul>
-      </header>
-    </div>
+      </div> */}
+    </section>
   );
 }
 

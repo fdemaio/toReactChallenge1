@@ -1,9 +1,10 @@
-import './Main.css';
+import React from 'react';
+
+/* import './about.css'; */
 
 function About() {
   return (
-    <div className="Main">
-      <header className="Main-header">
+    <section>
         <h2>📚 About</h2>
         <p>La idea es seguir el routemap de React que encontramos en roadmap.sh. 
             No tenemos un material en particular, proponemos este Notion con varios 
@@ -18,8 +19,7 @@ function About() {
               challenges fijos, sino ir armando cositas que demuestren eso nuevo que se vio 
               en la semana/s .
         </p>
-      </header>
-    </div>
+    </section>
   );
 }
 

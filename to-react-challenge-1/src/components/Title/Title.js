@@ -1,9 +1,8 @@
-import './Main.css';
+import React from 'react';
 
-function Main() {
+function Title() {
   return (
-    <div className="Main">
-      <header className="Main-header">
+    <div className="header">
         <h1>HaciaReact ⚛</h1>
         <p>Basado en el routemap de React: <a className="Main-link" target="_blank" rel="noopener noreferrer" href="https://roadmap.sh/react">https://roadmap.sh/react</a> </p> 
 
@@ -11,9 +10,8 @@ function Main() {
 
       <p>Lunes 18hs - Zona horaria de Buenos Aires (GMT-3) <br/> <br/> 
          Jueves 19hs - Zona horaria de Buenos Aires (GMT-3) </p>
-      </header>
     </div>
   );
 }
 
-export default Main;
+export default Title;
