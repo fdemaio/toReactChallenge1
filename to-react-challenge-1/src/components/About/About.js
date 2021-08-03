@@ -5,6 +5,7 @@ import React from 'react';
 function About() {
   return (
     <section>
+      <div>
         <h2>📚 About</h2>
         <p>La idea es seguir el routemap de React que encontramos en roadmap.sh. 
             No tenemos un material en particular, proponemos este Notion con varios 
@@ -19,6 +20,7 @@ function About() {
               challenges fijos, sino ir armando cositas que demuestren eso nuevo que se vio 
               en la semana/s .
         </p>
+      </div>
     </section>
   );
 }
