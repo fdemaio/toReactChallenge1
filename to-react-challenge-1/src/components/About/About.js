@@ -1,11 +1,9 @@
 import React from 'react';
 
-/* import './about.css'; */
-
 function About() {
   return (
     <section>
-      <div>
+      <div className="title">
         <h2>📚 About</h2>
         <p>La idea es seguir el routemap de React que encontramos en roadmap.sh. 
             No tenemos un material en particular, proponemos este Notion con varios 

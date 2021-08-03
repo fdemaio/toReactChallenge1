@@ -3,7 +3,7 @@ import React from 'react';
 function Target() {
   return (
     <section>
-      <div>
+      <div className="title">
         <h2>🏆 Objetivo</h2>
         <p>El objetivo es armar un grupo de estudio para ir hacia React, 
           desde el inicio, siguiendo el routemap en conjunto. Al principio 

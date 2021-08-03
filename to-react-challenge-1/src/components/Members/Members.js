@@ -7,20 +7,22 @@ import texts from '../../data/members/members.json';
 function Members() {
   return (
     <section>
+      <div className="title">
       <h2>Integrantes</h2>
-      <ul>
-        {
-          texts.data.map((member) => (
-            <li key={member.githubUser}>
-              {member.name}
-              (<a target="_blank" rel="noopener noreferrer" href={member.url} >
-                @{member.githubUser}
-              </a>)
-            </li>
-          )
-          )
-        }
-      </ul>
+        <ul>
+          {
+            texts.data.map((member) => (
+              <li key={member.githubUser}>
+                {member.name}
+                (<a target="_blank" rel="noopener noreferrer" href={member.url} >
+                  @{member.githubUser}
+                </a>)
+              </li>
+            )
+            )
+          }
+        </ul>
+      </div>
      
       {/* <div>
         <h2>👋🏽 Integrantes</h2>
